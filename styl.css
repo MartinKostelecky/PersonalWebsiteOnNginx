@@ -1,0 +1,191 @@
+html {
+    background: greenyellow;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(fonty/Ubuntu-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(fonty/Ubuntu-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    font-family: "Ubuntu";
+    font-size: 14px;
+    color: black;
+    background: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 100px 0 0 0;
+    min-width: 960px;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    padding: 0 25px;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 4.3em;
+}
+
+nav ul a {
+    color: white;
+    padding: 8px O;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul a:hover, .aktivni a{
+    
+}
+
+body > header {
+    height: 100px;
+    width: 100%;  
+    background: rgb(33, 122, 255);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+article header {
+    height: 80px;
+}
+
+article {
+    max-width: 960px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 50px 50px 10px 50px;
+}
+
+article h1 {
+    margin: 0;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: max-content;
+    color: rgb(33, 122, 255);
+}
+article h2 {
+    font-size: 2 em;
+    color: black;
+}
+article h3,
+article h4,
+article h5,
+article h6 {
+    color: ;
+}
+
+article section p {
+    margin-bottom: 1.5em;
+    line-height: 1.8em;
+}
+
+article section a {
+    color: black;
+    text-decoration: none;
+}
+
+.profilovka {
+    float: right;
+    width: 400px;
+    padding-left: 30px;
+}
+
+.ikonka {
+   width: auto;
+}
+
+#logo {
+    height: 40px;
+    margin: auto 0 auto 20px;
+    flex-direction: column;
+    justify-content: center;
+    background: url(obrazky/Logo.png) no-repeat;
+    background-size: 100px 40px;
+}
+
+#logo > * {
+    margin: 0 0 0 110px;
+    
+}
+
+#logo h1 {
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: white;
+}
+
+#logo h1 span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#logo small {
+    font-size: 0.85em;
+    text-transform: uppercase;
+}
+
+.tlacitko:hover {
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0;
+    color: black;
+
+}
+
+.kontakt-tlacitko a {
+    background: white;
+    color: rgb(33, 122, 255);
+    border-radius: 25px;
+    padding: 12px 25px;
+    height: 25px;
+}
+
+.kontakt-tlacitko:hover a{
+    background: yellowgreen;
+    color: black;
+    filter: brightness(115%);
+    transition: 0.4s linear;
+}
+
+.zpet-tlacitko {
+    background: rgb(33, 122, 255);
+    color: white;
+    border-radius: 25px;
+    padding: 12px 25px;
+    height: 25px;
+    
+}
+
+.cistic {
+    clear: both;
+}
+
+footer {
+    height: 100px;
+    box-sizing: border-box;
+    color: black;
+    background: greenyellow;
+    text-align: center;
+    padding: 50px 0 0 0;
+    clip-path: polygon(45px 30px, 100% 0, 100% 105%, 0 105%);
+}
